@@ -1,4 +1,3 @@
-# Coding-for-NetEng-Getting-Started
 # This is a short list of what I've found useful in my journey to programming
 
 # Websites
