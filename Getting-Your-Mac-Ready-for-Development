@@ -1,0 +1,25 @@
+Install Xcode CLI Tools and install HomeBrew
+
+$ xcode-select --install
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew install pkg-config libssh libxml2 curl pcre cmake
+$ curl -O https://devhub.cisco.com/artifactory/osx-ydk/0.7.0/libydk-0.7.0-Darwin.pkg
+$ sudo installer -pkg libydk-0.7.0-Darwin.pkg -target /
+
+Install PIP
+
+https://pip.readthedocs.io/en/stable/installing/
+
+Install YDK Models
+$ pip install ydk-models-cisco-ios-xr
+$ pip install ydk-models-cisco-ios-xe
+$ pip install ydk-models-openconfig
+$ pip install ydk-models-ietf
+
+Install LXML
+brew unlink libxml2
+brew unlink libxslt
+
+Reference sites
+http://ydk.cisco.com/py/docs/getting_started.html#macos
+https://pip.readthedocs.io/en/stable/installing/
